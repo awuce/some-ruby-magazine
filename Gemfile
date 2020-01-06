@@ -18,8 +18,8 @@ gem 'coffee-rails'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
-  gem 'byebug', platforms: %[:mri :mingw :x64_mingw]
-  gem 'pg' '~> 1.1'
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pg', '~> 1.1'
   gem 'rspec-json_expectations'
   gem 'rspec-rails'
 end
@@ -34,4 +34,4 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'tzinfo-data', platforms: %i[:mingw :mswin :x64_mingw :jruby]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
