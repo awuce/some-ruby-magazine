@@ -8,7 +8,7 @@ gem 'sqlite3', '~> 1.4'
 
 gem 'oj'
 gem 'oj_mimic_json'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
